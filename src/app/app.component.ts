@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'parctice-project';
+  data='hello imran';
+  getName(name:string,secondName:string){
+    alert(name);
+    alert(secondName);
+  }
 }
